@@ -1,0 +1,16 @@
+//Dilan Alejandro Covarrubias Patiño 1621370
+
+function setup() {
+  createCanvas(500, 500);
+}
+
+function draw() {
+  background(220);
+  for(var j=5;j<500;j=j+10){
+  for(var i=5;i<500;i=i+10){
+    fill(random(255),random(255),random(255));
+    ellipse(i,j,10);
+  } 
+
+}
+}
